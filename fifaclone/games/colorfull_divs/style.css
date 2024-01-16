@@ -1,0 +1,8 @@
+.main_div{
+    height: 600px;
+    width: 600px;
+    background-color: #00ffff;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}

@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pele {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.div_for_photo {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    width: auto;
+}
+
+.second_div_for_photo {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.navigation_div {
+    position: relative;
+    border-bottom: silver 1px solid;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.search {
+    position: absolute;
+    right: 20px;
+    width: 25%;
+}
+
+.in_search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.text_decoration {
+    color: black;
+    margin-right: 0px;
+    text-decoration: none;
+}
+
+.search_icon {
+    border-right: 1px solid #e4e8f0;
+    padding-right: 20px;
+}
+
+.store {
+    border-right: 1px solid #e4e8f0;
+    padding-right: 20px;
+}
+
+.tickets {
+    border-right: 1px solid #e4e8f0;
+    padding-right: 20px;
+}
+
+.main_naivigation {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.common_for_navigatio_tags {
+    color: black;
+    margin-right: 0px;
+    text-decoration: none;
+    padding: 35px 16px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.common_for_navigatio_tags:hover {
+    color: #0263bc;
+    background-color: #f7f9fc;
+}
+
+.common_for_navigatio_tags:last-child {
+    margin-right: 0px;
+}
+.development{
+    border-top: silver 1px solid;
+    border-bottom: silver 1px solid;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: center;
+}
+.for_a_tag{
+    text-decoration: none;
+    color: black;
+    font-size: 18;
+}
+.statement{
+    border-top: solid silver 1px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.img_div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width: 80%;
+    height: auto;
+    padding-bottom: 10px;
+}
+.statement_div{
+    width: 100%;
+    height: auto;
+    border-top: solid silver 1px;
+    border-bottom: solid 1px silver;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.inside_statement{
+    width: 40%;
+    height: auto;
+
+}

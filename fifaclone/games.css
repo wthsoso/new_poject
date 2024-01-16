@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+
+a {
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    color: black; 
+}
+
+img {
+    width: 100%; 
+    height: auto; 
+    border: 1px solid #ccc; 
+}
+
+p {
+    margin: 5px 0; 
+}
